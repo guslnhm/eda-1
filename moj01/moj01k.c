@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main(){
-    int n,media=0,k=0;
+    int n,k=0;
+    long long int media=0;
     scanf("%d",&n);
     int v[n];
     for(int i=0; i<n; i++){
